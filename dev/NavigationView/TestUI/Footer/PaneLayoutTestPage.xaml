@@ -27,5 +27,5 @@
             <TextBlock x:Name="LayoutHeightsReport" AutomationProperties.Name="LayoutHeightsReport"/>
         </StackPanel>
     </muxc:NavigationView>
-    
+
 </local:TestPage>
