@@ -431,7 +431,8 @@
                                         HorizontalAlignment="Left"
                                         Visibility="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplateSettings.LeftPaneVisibility}"
                                         BorderBrush="{ThemeResource NavigationViewItemSeparatorForeground}"
-                                        BorderThickness="0,0,1,0">
+                                        BorderThickness="0,0,1,0"
+                                        Width="{TemplateBinding OpenPaneLength}">
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="Auto"/>
                                             <RowDefinition Height="0"/> <!-- above button margin + back button space -->
