@@ -56,6 +56,10 @@
 
     <x:Boolean x:Key="ThemeShadowIsUsingDropShadows">True</x:Boolean>
 
+    
+    <controls:TextCommandBarFlyout x:Key="TextControlCommandBarContextFlyout" Placement="BottomEdgeAlignedLeft" />
+    <controls:TextCommandBarFlyout x:Key="TextControlCommandBarSelectionFlyout" Placement="TopEdgeAlignedLeft" />
+    
     <Style TargetType="LoopingSelector">
         <Setter Property="ShouldLoop" Value="True" />
         <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}" />
